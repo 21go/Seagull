@@ -10,7 +10,10 @@ Authors: Greg Ou, Charles Yoon, Jennifer Huang
         ```
         dune build
         ```
-    2. ocamlbuild main.native
+    2. ocamlbuild
+       ```
+       ocamlbuild main.native
+       ```
 
 
 2. Run the executable
