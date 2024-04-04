@@ -1,0 +1,5 @@
+(executable
+ (public_name Seagull)
+ (name main)
+ (libraries Seagull sedlex)
+ (preprocess (pps sedlex.ppx)))
