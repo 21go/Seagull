@@ -1,0 +1,29 @@
+整数 号 = 2；
+
+/*
+我是个comment
+Wow!
+*/
+
+整数 x = 3；
+整数 y = x + 3 * （y + 9）；
+整数 var_num = 10；
+
+// 又来一个comment, this one shows that we can declare typed variabled with or without whitespace
+布尔a = 真；
+串 你好 = “Hello World”；
+
+当（a）「
+    打印（“hello”）；
+」
+
+// we will print hello world if conditions are met
+如果（x + y）「
+    布尔 b = 真；
+    打印（“hello”）；
+」
+
+// test a comparison
+如果（x 大等 3）「
+    打印（“yes x is greater than or equal to three”）；
+」
