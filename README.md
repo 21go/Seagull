@@ -18,6 +18,11 @@ Authors: Greg Ou, Charles Yoon, Jennifer Huang
 ./_build/default/main.exe
 ```
 
+3. Run the test (other test files have in-progress features)
+```
+./_build/default/src/main.exe < test/greg.ou
+```
+
 ### Files
 Compiler
 * `ast.ml`: abstract syntax tree (AST) definition
