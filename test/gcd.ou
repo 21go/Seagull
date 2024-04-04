@@ -1,0 +1,28 @@
+/* The GCD algorithm in Seagull  */
+整数 a；
+整数 b；
+
+功能 gcd（整数 a， 整数 b） 「
+  当 （a 不等 b） 「
+    如果 （b 小 a） 「
+        a = a - b；
+    」
+    否则 「
+        b = b - a；
+    」
+  回 a；
+」
+
+功能 main（） 「
+  整数 x；
+  整数 y；
+  a = 18；
+  b = 9；
+  x = 2；
+  y = 14；
+  打印（gcd（x，y））；
+  打印（gcd（3，15））；
+  打印（gcd（99，121））；
+  打印（gcd（a，b））；
+  回 0；
+」
